@@ -1,10 +1,11 @@
 [package]
-name = "quad"
+name = "baseball"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 bevy = { version = "0.16.0", features = ["dynamic_linking", "webgpu"] }
-
+rand = "0.9.1"
+    
 [workspace]
 resolver = "2" # 중요! wgpu/Bevy에 필요합니다!
